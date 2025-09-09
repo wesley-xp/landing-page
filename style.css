@@ -1,26 +1,91 @@
-header{
-
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-
-#produtos{
-    background-color: rgb(8, 241, 78);
-    height: 700px;
+body{
+    text-align: center;
 }
 
-#parceiros{
-    background-color: rgb(243, 5, 5);
-    height: 700px;
+header {
+    background-color: #52c4d8;
 }
 
-#história{
-    background-color: rgb(243, 228, 13);
-    height: 700px;
+#produtos {
+    background-color: #6474a0;
+    height: 500px;
+    padding-top: 30px;
+}
+
+#parceiros {
+    background-color: #b969b3;
+    height: 500px;
+}
+
+#historia {
+    background-color: #64a098;
+    height: 500px;
+}
+
+#cadastro {
+    background-color: #6db1b9;
+    height: 500px;
 }
 
 .logotipo{
+    height: 30px;
+    width: 35px;
+}
 
-height: 250px;
+.menu{
+    background-color: beige;
+    padding: 15px;
+}
 
+.menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.3s ease;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: beige;
+    text-decoration: underline;
+    background-color: #4161b9;
+    border-radius: 3px;
+}
+
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.texto_1{
+    background-color: beige;
+    margin: 0 400px 0 400px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.texto_1:hover{
+    background-color: #e6e6c1;
+    transition: 0.5s ease;
+    transform: scale(1.05);
+}
+
+.texto_1 p{
+    /* border: solid #771480; */
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#logotipo{
+    width: 200px;
 }
